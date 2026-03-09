@@ -1,0 +1,53 @@
+name: lottery_analyzer
+description: 专业彩票规律分析器 - 深度统计分析与智能预测
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # 状态管理
+  provider: ^6.1.1
+  
+  # 数据存储
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  shared_preferences: ^2.2.2
+  
+  # 网络请求
+  http: ^1.1.0
+  dio: ^5.4.0
+  
+  # 数据可视化
+  fl_chart: ^0.66.0
+  syncfusion_flutter_charts: ^24.1.41
+  
+  # UI组件
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  flutter_animate: ^4.3.0
+  
+  # 工具类
+  intl: ^0.18.1
+  uuid: ^4.2.1
+  logger: ^2.0.2
+  
+  # 数学计算
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/data/
